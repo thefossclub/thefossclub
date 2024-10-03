@@ -30,8 +30,8 @@
   const teamMembers = [
     { name: 'Vaibhav Pratap Singh', role: 'President', image: '/placeholder.svg' },
     { name: 'Suryanash Sharma', role: 'Vice President', image: '/placeholder.svg' },
-    { name: 'Sachin Singh', role: 'Secretary', image: '/placeholder.svg' },
-    { name: 'Emily Brown', role: 'Treasurer', image: '/placeholder.svg' }
+    { name: 'Sachin Singh Adhikari', role: 'Secretary', image: '/placeholder.svg' },
+    { name: 'Ashwany Kumar Sharma', role: 'Vice Secretary', image: '/placeholder.svg' }
   ];
 
   const blogPosts = [
