@@ -87,7 +87,7 @@
 
 <main class="min-h-screen bg-white dark:bg-black text-black dark:text-white">
   <header class="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
-    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
       <a href="/" class="text-2xl font-bold text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-300">The FOSS Club</a>
       <div class="md:hidden">
         <button on:click={toggleMenu} class="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-300">
@@ -104,7 +104,7 @@
         <li><a href="#blog" class="hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-300">Blog</a></li>
         <li><a href="#resources" class="hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-300">Resources</a></li>
         <li>
-          <button on:click={toggleTheme} class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
+          <button on:click={toggleTheme}>
             {#if theme === 'light'}
               🌙
             {:else}
